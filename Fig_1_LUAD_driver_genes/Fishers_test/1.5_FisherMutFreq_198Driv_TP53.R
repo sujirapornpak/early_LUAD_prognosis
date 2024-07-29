@@ -1,0 +1,39 @@
+setwd("~/Desktop/GitLab/early_LUAD_prognosis/Fig_1_LUAD_driver_genes/Fishers_test")
+
+# Libary required for fisher_test: Fisher's Exact Test for Count Data
+# https://www.rdocumentation.org/packages/rstatix/versions/0.7.0/topics/fisher_test
+library(rstatix) 
+library(writexl)
+library(readxl)
+
+# https://rpkgs.datanovia.com/rstatix/reference/fisher_test.html
+
+#%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+# Homogeneity of proportions between groups
+#%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+# H0: the proportion of smokers is similar in the four groups
+# Ha:  this proportion is different in at least one of the populations.
+#==================#=====================#
+# Data preparation
+
+## Stage 3+ 4
+# Clean_c: only silent + other mut + SIFT/PolyPhen2: size per stage: (276, 121, 82, 26) sum = 505
+##group_size <- c(276, 121, 108) # group C: sum = 505 
+group_size <- c(265, 116, 105) # sum = 486 <--- Use this sum no. which is corresponding to maftools (Forest plot)
+
+TP53_32_mut <- c(134, 64, 54)
+TP53_32_wt <- group_size - TP53_32_mut
+#----------------#
+
+xtabTP53_32 <- as.table(rbind(TP53_32_mut,TP53_32_wt ))
+dimnames(xtabTP53_32) <- list(Gene = c("TP53_32_mut", "TP53_32_wt"),
+                              Cohort = c("Stage 1", "Stage 2", "Stage 3+4"))
+df_TP53_32 <- pairwise_fisher_test(xtabTP53_32, p.adjust.method = "BH", detailed = TRUE) 
+df_TP53_32
+
+
+#Export Fisher's test result 
+write_xlsx(df_TP53_32,"~/Desktop/GitLab/early_LUAD_prognosis/Fig_1_LUAD_driver_genes/Fishers_test/df_TP53_32.xlsx", col_names = TRUE,format_headers = TRUE)
+#----------------#
+
+

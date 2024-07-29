@@ -1,0 +1,53 @@
+Selection Citeria:
+Statistical Test Used = Enrichment/Depletion (Two-sided hypergeometric test)
+Use pvalue cutoff = true
+pvalue cutoff = 0.05000000074505806
+Correction Method Used = Bonferroni step down
+Min GO Level = 3
+Max GO Level = 8
+Cluster #1
+Sample File Name = File selection: 
+Number of Genes = 3
+Min Percentage = 4.0
+
+GO Fusion = true
+GO Group = true
+Kappa Score Threshold = 0.4
+Over View Term = SmallestPValue
+Group By Kappa Statistics = true
+Initial Group Size = 1
+Sharing Group Percentage = 50.0
+
+ClueGO Log:
+### All results were created with ClueGO v2.5.8 ###
+Organism analyzed: Homo Sapiens [9606]
+Identifier types used: [SymbolID]
+Evidence codes used: [All]
+#Genes in GO_BiologicalProcess-EBI-UniProt-GOA-ACAP-ARAP_13.05.2021_00h00 : 18058
+
+#All unique genes in selected ontologies: 18058 (reference set for hypergeometric test)
+
+#Genes from Cluster#1: unique uploaded ids 48 -> corresponding genes 47, with 0 (0.0%) missing  -> All genes were recognized by ClueGO.
+#Genes with functional annotations in all selected Ontologies from Cluster#1: 47 (100.0%)
+
+#Genes from all Clusters associated to 71 representative Terms and Pathways (after applying general selection criteria): 34 (72.34%)
+#Genes from all Clusters associated to 19 representative Terms and Pathways (after fusion selection criteria): 25 (53.19%)
+#Genes from all Clusters associated to 19 representative Terms and Pathways (after p-value significance selection criteria): 25 (53.19%)
+
+KappaScore Grouping:
+Iteration: 0 with 10 groups
+Iteration: 1 with 9 groups
+Iteration: 2 with 8 groups
+Final KappaScore groups  = 8
+# Terms not grouped  = 0
+
+# Merge redundant groups with >50.0% overlap
+Final group size after merging: 8
+
+#GO All Terms Specific for Cluster #1: 19
+#GO Terms: 19
+#GO Term Connections: 7
+List of missing Genes -> make sure the ids exists or are written propperly -> if yes make sure you have their annotation in ClueGO!
+Cluster #1
+
+

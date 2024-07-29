@@ -1,0 +1,20 @@
+NAME	ATM	BRAF	CDKN2A	COL1A1	CREBBP	CTNNB1	DNMT3A	EGFR	EIF4G1	EPHA4	FN1	KMT2A	KMT2C	KRAS	MAP3K4	MMP2	NF1	NTRK2	PIK3CA	RBM10	SETD2	SMAD4	SMARCA4	STK11	TP53
+telomerase activity	1	0	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	1
+MAP kinase kinase kinase activity	0	1	0	0	0	0	0	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0
+endoderm development	0	0	0	0	0	1	0	0	0	0	1	0	0	0	0	1	0	0	0	0	1	1	0	0	0
+visual learning	0	1	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0
+positive regulation of muscle cell apoptotic process	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	1
+histone methylation	0	0	0	0	1	1	0	0	0	0	0	1	1	0	0	0	0	0	0	0	1	1	0	0	0
+histone-lysine N-methyltransferase activity	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	1	0	0	0	0
+positive regulation of transforming growth factor beta receptor signaling pathway	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	1	0
+positive regulation of histone modification	0	0	0	0	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	1	0	0	1
+positive regulation of telomere maintenance via telomerase	1	0	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0
+endodermal cell differentiation	0	0	0	0	0	1	0	0	0	0	1	0	0	0	0	1	0	0	0	0	1	0	0	0	0
+astrocyte differentiation	0	0	0	0	0	0	0	1	0	1	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0
+positive regulation of histone H3-K4 methylation	0	0	0	0	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	1	0	0	0
+head morphogenesis	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0
+cellular response to acid chemical	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	1	0	1	1	0	0	0	0	0	0
+positive regulation of cell aging	0	0	1	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	1
+positive regulation of pri-miRNA transcription by RNA polymerase II	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	1
+positive regulation of gene silencing by miRNA	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1
+regulation of cellular senescence	0	0	1	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	1

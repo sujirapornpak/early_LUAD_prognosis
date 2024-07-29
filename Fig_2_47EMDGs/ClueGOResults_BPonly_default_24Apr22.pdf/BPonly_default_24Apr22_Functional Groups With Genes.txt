@@ -1,0 +1,9 @@
+Function	Groups	Group Genes
+MAP kinase kinase kinase activity	Group0	BRAF|EGFR|MAP3K4
+cellular response to acid chemical	Group4	BRAF|COL1A1|DNMT3A|MMP2|NTRK2|PIK3CA
+endoderm development	Group7	ATM|CREBBP|CTNNB1|FN1|KMT2A|KMT2C|MAP3K4|MMP2|SETD2|SMAD4|SMARCA4|TP53
+positive regulation of cell aging	Group6	CDKN2A|KRAS|RBM10|TP53
+positive regulation of gene silencing by miRNA	Group1	EGFR|EIF4G1|TP53
+positive regulation of transforming growth factor beta receptor signaling pathway	Group2	CREBBP|SMAD4|STK11
+telomerase activity	Group5	ATM|CTNNB1|KMT2A|MAP3K4|SMAD4|TP53
+visual learning	Group3	BRAF|EGFR|EPHA4|KRAS|NF1
